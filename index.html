@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/src/core.min.js" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Juego de memoria</title>
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <h1>Juego de memoria</h1>
+        <table>
+          <tr>
+            <td><button id="0" onclick="abrir(0)"></button></td>
+            <td><button id="1" onclick="abrir(1)"></button></td>
+            <td><button id="2" onclick="abrir(2)"></button></td>
+            <td>
+              <button id="3" onclick="abrir(3)" onclick="abrir(0)"></button>
+            </td>
+          </tr>
+          <tr>
+            <td><button id="4" onclick="abrir(4)"></button></td>
+            <td><button id="5" onclick="abrir(5)"></button></td>
+            <td><button id="6" onclick="abrir(6)"></button></td>
+            <td><button id="7" onclick="abrir(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" onclick="abrir(8)"></button></td>
+            <td><button id="9" onclick="abrir(9)"></button></td>
+            <td><button id="10" onclick="abrir(10)"></button></td>
+            <td><button id="11" onclick="abrir(11)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="12" onclick="abrir(12)"></button></td>
+            <td><button id="13" onclick="abrir(13)"></button></td>
+            <td><button id="14" onclick="abrir(14)"></button></td>
+            <td><button id="15" onclick="abrir(15)"></button></td>
+          </tr>
+        </table>
+      </section>
+      <secction class="section2">
+        <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+        <h2 id="tiempo" class="estadisticas">Tiempo 30 seg</h2>
+        <h2 id="movimientos" class="estadisticas">Movimientos:</h2>
+      </secction>
+    </main>
+    <footer>
+      <!-- <div class="redes-sociales">
+        <p>
+          <a href="https://twitter.com/uzuriago">
+            <img
+              align="left"
+              alt="Junior Twitter"
+              width="40px"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/uzuriaga/">
+            <img
+              align="left"
+              alt="Junior Linkdein"
+              width="40px"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"
+            />
+          </a>
+          <a href="https://github.com/Uzuriaga">
+            <img
+              align="left"
+              alt="Junior Github"
+              width="40px"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
+            />
+          </a>
+          <a href="https://t.me/jruzu">
+            <img
+              align="left"
+              alt="Junior Telegram"
+              width="40px"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg"
+            />
+          </a>
+          <a href="mailto:uzuriagajunior@gmail.com">
+            <img
+              align="left"
+              alt="Junior Mailk"
+              width="40px"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg"
+            />
+          </a>
+        </p>
+      </div> -->
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
